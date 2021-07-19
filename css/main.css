@@ -78,8 +78,16 @@ header button:first-child img {
 }
 
 #hero {
-	width: 275px;
+	width: 272px;
+	height: 92px;
 	margin-bottom: 30px;
+	aspect-ratio: 272 / 92;
+
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	object-position: center bottom;
+	width: auto;
 }
 
 /* MAIN */
@@ -136,3 +144,43 @@ main {
 	box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
+/* FOOTER */
+footer {
+	width: 100vw;
+	height: 140px;
+	position: fixed;
+	bottom: 0;
+	flex-direction: column;
+	background: #f2f2f2;
+}
+
+footer p {
+	padding: 15px 30px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	border-bottom: 1px solid #dadce0;
+}
+
+.footer-links {
+	flex-direction: column;
+	height: 70%;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-links section {
+	justify-content: space-between;
+}
+
+.footer-links a {
+	padding: 14px;
+	font-size: 14px;
+	color: #70757a;
+}
+
+@media only screen and (max-width: 1200px) {
+	.footer-links {
+		justify-content: space-evenly;
+	}
+}
