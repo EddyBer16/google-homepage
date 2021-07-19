@@ -1,0 +1,89 @@
+/* GENERAL */
+* {
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: .8em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* DELETE THIS WHEN DONE */
+img {
+	width: 50px;
+}
+
+/* CLASSES */
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rounded {
+	border-radius: 100px;
+}
+
+/* HEADER */
+header {
+	width: 97.5vw;
+	padding-right: 2.5vw;
+	height: 60px;
+
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header-links {
+	width: 100px;
+	margin-right: 10px;
+}
+
+/* HEADER BUTTONS */
+.header-buttons,
+.header-links {
+	justify-content: space-around;
+	align-items: center;
+}
+
+header button {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	border: none;
+	background: transparent;
+}
+
+button img {
+	width: 30px;
+	height: 30px;
+}
+
+header button:first-child img {
+	width: 18px;
+	height: 18px;
+}
+
+.header-apps img {
+	width: 15px;
+	height: 15px;
+}
+
+#hero {
+	width: 250px;
+}
+
+/* MAIN */
+main {
+	flex-direction: column;
+}

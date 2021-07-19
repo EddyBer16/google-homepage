@@ -7,23 +7,31 @@
 	<title>Google</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<a href="">Gmail</a>
-		<a href="">Images</a>
-		<button>
-			<img src="images/grid-view.png" alt="Toggle Apps" srcset="">
-		</button>
-		<button>
-			<img src="images/google-profile.jpg" alt="Open Google Profile" srcset="">
-		</button>
+	<header class="flex">
+		<section class="flex header-links">
+			<a href="">Gmail</a>
+			<a href="">Images</a>
+		</section>
+
+		<section class="flex header-buttons">
+			<button class="flex-center header-apps">
+				<img src="images/grid-view.png" alt="Toggle Apps">
+			</button>
+			<button class="flex-center rounded header-profile">
+				<img class="rounded"src="images/google-profile.jpg" alt="Open Google Profile">
+			</button>
+		</section>
 	</header>
 
-	<main>
-		<img src="images/googlelogo_color_272x92dp.png" alt="Google">
+	<main class="flex-center">
+		<img id="hero" src="images/googlelogo_color_272x92dp.png" alt="Google">
 
-		<section>
+		<section class="rounded">
 			<img src="images/search.svg">
 			<input type="text">
 			<img src="images/Google_mic.png">
