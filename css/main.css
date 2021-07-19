@@ -14,9 +14,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* DELETE THIS WHEN DONE */
-img {
-	width: 50px;
+button {
+	border: none;
 }
 
 /* CLASSES */
@@ -60,7 +59,6 @@ header button {
 	display: flex;
 	width: 50px;
 	height: 50px;
-	border: none;
 	background: transparent;
 }
 
@@ -97,6 +95,7 @@ main {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 20px;
+	margin-bottom: 30px;
 }
 
 .search-bar img {
@@ -115,3 +114,25 @@ main {
 	background: transparent;
 	outline: none;
 }
+
+/* BUTTONS */
+.main-buttons {
+	width: 275px;
+	justify-content: space-between;
+}
+
+.main-buttons button {
+	width: 130px;
+	height: 35px;
+	background: #f8f9fa;
+	font-size: .9em;
+	border-radius: 4px;
+	color: #3c4043;
+}
+
+.main-buttons button:hover {
+	cursor: pointer;
+	border: 1px solid #dadce0;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
