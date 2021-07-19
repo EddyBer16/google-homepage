@@ -80,10 +80,38 @@ header button:first-child img {
 }
 
 #hero {
-	width: 250px;
+	width: 275px;
+	margin-bottom: 30px;
 }
 
 /* MAIN */
 main {
 	flex-direction: column;
+}
+
+/* SEARCH BAR */
+.search-bar {
+	border: 1px solid #ddd;
+	width: 430px;
+	height: 42.5px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.search-bar img {
+	width: 17.5px;
+}
+
+.search-bar img:last-child {
+	width: 12.5px;
+	height: 20px;
+}
+
+.search-bar input {
+	width: 85%;
+	height: 100%;
+	border: none;
+	background: transparent;
+	outline: none;
 }
